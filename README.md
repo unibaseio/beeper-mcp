@@ -79,7 +79,12 @@ uv run src/beeper_mcp/server.py --port 8008 --transport=sse
   "mcpServers": {
     "membase": {
       "command": "uv",
-      "args": ["run", "path/to/beeper_mcp"],
+      "args": [
+        "--directory",
+        "path/to/beeper-mcp",
+        "run", 
+        "src/beeper_mcp/server.py"
+        ],
       "env": {
         "MEMBASE_ACCOUNT": "your account, 0x...",
         "MEMBASE_SECRET_KEY": "your private key or in .env",
