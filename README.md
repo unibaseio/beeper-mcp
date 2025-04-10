@@ -1,3 +1,5 @@
+ATTENTION: This repo is **moved** to: https://github.com/intentos-labs/beeper-mcp
+
 # beeper-mcp
 
 A backend service for executing beeper transactions on Binance Smart Chain (BSC). This service provides a set of tools for interacting with the BSC blockchain, including balance checking, balance transfers, token transfers, token swaps in Pancakeswap and beeper reward claims.
